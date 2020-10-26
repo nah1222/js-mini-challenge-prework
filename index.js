@@ -23,7 +23,7 @@ const name = "Nick"
 
 console.log(name)
 // => "Ian"
-name = "Not Ian" 
+// name = "Not Ian" 
 // => TypeError
 console.log("%c----------", "color: red") 
 
@@ -60,11 +60,11 @@ console.log("%cQuestion 4", "color: red")
 
 function sameSameButDifferent(num, maybeNum){
   if (num === maybeNum){
-    console.log("same same")
+    return("same same")
   } else if(num == maybeNum){
-      console.log("same same (but different)")
+      return("same same (but different)")
   }else {
-        console.log("different")
+        return("different")
     }  
   }
 
